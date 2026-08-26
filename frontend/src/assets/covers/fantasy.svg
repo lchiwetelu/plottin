@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efeadd"/>
+      <stop offset="1" stop-color="#e0d8c4"/>
+    </linearGradient>
+    <pattern id="fhatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#c9c1ab" stroke-width="1" opacity="0.55"/>
+      <line x1="6" y1="0" x2="6" y2="12" stroke="#c9c1ab" stroke-width="1" opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect width="240" height="300" fill="url(#fbg)"/>
+  <rect width="240" height="300" fill="url(#fhatch)"/>
+  <rect x="16" y="14" width="8" height="272" fill="#a44e3b" opacity="0.75"/>
+</svg>
